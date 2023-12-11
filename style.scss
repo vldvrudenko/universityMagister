@@ -1,0 +1,59 @@
+.wrapper {
+  width: 1200px;
+  background-color: red;
+  margin: auto;
+  top: 20;
+}
+body {
+  background: #66bac7 !important;
+}
+.colored {
+  color: #005d6c;
+}
+.colorbg {
+  background: #005d6c;
+}
+#bar-chart {
+  background-color: rgb(55, 71, 79);
+  width: 800px;
+  height: 350px;
+  font-family: Lato, Helvetica-Neue, monospace;
+}
+
+.ct-series-a .ct-bar {
+  /* Colour of your bars */
+  stroke: #be1e2d;
+  stroke-width: 30;
+}
+.ct-series-b .ct-bar {
+  /* Colour of your bars */
+  stroke: #00a79d;
+  stroke-width: 30;
+}
+
+.ct-label {
+  color: white;
+}
+
+.cardsLibrary {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.card {
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+.cardMainTeg{
+  color: red ;
+}
+.displayNone{
+  display: none;
+}
+.cardDopColor{
+  color:#005d6c;
+}
+.nav-item{
+  font-size: 18px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

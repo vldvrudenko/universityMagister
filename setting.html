@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded rounded-4 mt-4">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="55" /></a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav justify-content-between">
+
+          <li class="nav-item active">
+            <a class="nav-link" href="humanitarianHelp.html" style="color: #005d6c">
+              <img src="img/support.png" alt="support" width="25px" height="25px" />
+              Гуманітарна допомога</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="lowerHelp.html" style="color: #005d6c">
+              <img src="img/lawyer.png" alt="lawyer" width="25px" height="25px" />
+              Юридична допомога</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="psyhologicalHelp.html" style="color: #005d6c">
+              <img src="img/psyhologiessLogo.png" alt="psyhologiessLogo" width="25px" height="25px" />
+              Психологічна допомога</a>
+          </li>
+        </ul>
+      </div>
+
+      <a href="setting.html">
+        <img src="img/user.png" alt="user" width="30" class="img-fluid" />
+      </a>
+    </nav>
+
+    <section>
+      <div class="rounded pt-2 ">
+        <h3>Гуманітрана допомога</h3>
+        <section class="cardsLibrary"></section>
+      </div>
+    </section>
+    <section>
+      <h3>Психологічна допомога</h3>
+      <div class="cardsLibraryPsyhologies"></div>
+    </section>
+
+
+    <section>
+      <h3>Допомога юриста</h3>
+      <div class="lowerHelpBlock"></div>
+    </section>
+    <div id="chart"></div>
+    <footer class="text-center bg-light rounded pt-2 pb-2 mb-2 mt-5">
+      <img src="img/logo.png" alt="logo" width="30px" height="25px" />
+      Lans company limited
+    </footer>
+    <script src="https://unpkg.com/frappe-charts@0.0.4/dist/frappe-charts.min.iife.js"></script>
+  </div>
+  <!-- Подключение скриптов Bootstrap (jQuery и Popper.js) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="/script.js"></script>
+</body>
+
+</html>
